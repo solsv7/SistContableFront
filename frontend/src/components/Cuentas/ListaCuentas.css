@@ -61,3 +61,7 @@
 .boton-eliminar:hover {
   color: #e74c3c;
 }
+.boton-eliminar:disabled{
+  opacity: 0.7;
+  cursor: not-allowed;
+}

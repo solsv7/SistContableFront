@@ -86,6 +86,7 @@ const ListaCuentas = () => {
                     className="boton-eliminar"
                     onClick={() => eliminarCuenta(cuenta.Codigo_cuenta)}
                     title="Eliminar cuenta"
+                    disabled = {cuenta.Saldo > 0}
                   >
                     <Trash2 size={16} />
                   </button>
