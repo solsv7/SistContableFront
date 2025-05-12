@@ -1,0 +1,63 @@
+.lista-cuentas {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+
+}
+
+.lista-cuentas h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #182749;
+}
+
+.lista-cuentas table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.lista-cuentas th,
+.lista-cuentas td {
+  padding: 10px;
+  border: 1px solid #ccc;
+  text-align: center;
+}
+
+.lista-cuentas th {
+  background-color: #a5d0eb;
+  font-weight: bold;
+  color: #282F33;
+}
+
+.lista-cuentas td {
+  background-color: #fff;
+}
+
+.lista-cuentas button {
+  background-color: #e74c3c;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.lista-cuentas button:hover {
+  background-color: #c0392b;
+}
+.boton-eliminar {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  color: #c0392b;
+  padding: 4px;
+}
+
+.boton-eliminar:hover {
+  color: #e74c3c;
+}

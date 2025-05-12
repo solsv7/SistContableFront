@@ -1,0 +1,47 @@
+body {
+  margin: 0;
+  font-family: 'Recoleta DEMO', -apple-system, Roboto, Helvetica, sans-serif;
+  background-color: #f1f3f7;
+  color: #182749;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.app-header {
+  background-color: #142445; 
+  color: #ebecee;
+  padding: 20px 20px;
+  text-align: center;
+}
+
+.app-title {
+  margin: 0;
+  font-size: 32px;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.app-main {
+  padding: 40px 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.App button {
+  margin: 5px;
+  padding: 8px 16px;
+  border: none;
+  background-color: #142445;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.App button:hover {
+  background-color: #4596C8;
+}
